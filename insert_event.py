@@ -39,6 +39,5 @@ def insert_event(event):
 
 if __name__ == '__main__':
     now = datetime.datetime.utcnow().isoformat() + 'Z'
-    # now = '2021-09-07T09:00:00-07:00'
     event = create_event('summary test','UT','dexcrip test',now,now)
     insert_event(event)
